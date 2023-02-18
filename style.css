@@ -1,0 +1,74 @@
+body {
+  background-image: url('/img/latest-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1.2em;
+  margin-top: 2em;
+  background: url(../img/MIbanner.jpg) rgba(0, 0, 0, 0.8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+
+caption {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.1em;
+  text-align: center;
+  padding: 10px;
+  background: url(../img/newsBg2.jpg) left center/cover no-repeat #19398a;
+  box-shadow: 0 4px 8px 0 hsl(0deg 0% 7% / 50%);
+  color: #fff;
+}
+
+caption img {
+  float: left;
+  margin-right: 10px;
+  width: auto;
+  height: 30px;
+  vertical-align: middle;
+}
+
+thead {
+  background: linear-gradient(71.81deg, #18184a 25.64%, #19398a 66.22%, #18184a 114.53%);
+  color: #fff;
+}
+
+th,
+td {
+  padding: 0.5em 1em;
+  text-align: center;
+  border: 1px solid #ddd;
+  color: #fff;
+}
+
+td img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+th {
+  font-weight: bold;
+}
+
+td.home {
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #271a5a5d;
+}
+
+tr:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+
+}
